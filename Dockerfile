@@ -21,7 +21,7 @@ COPY --from=builder /src/pocketbase .
 # 4. Aapki files (Jo aapne GitHub par push ki hain)
 # In folders ko GitHub par khaali ya naye versions ke saath rakho
 COPY pb_data ./pb_data
-COPY pb_migrations ./pb_migrations
+
 
 # Run permissions
 RUN chmod +x ./pocketbase
